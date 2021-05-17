@@ -1,0 +1,85 @@
+{
+  "title": "Cooki",
+  "description": "gitbook of renj.io",
+  "author": "Landers",
+  "language": "zh-hans",
+  "plugins": [
+    "-search",
+    "-lunr",
+    "-sharing",
+    "search-plus",
+    "splitter",
+    "advanced-emoji",
+    "editlink",
+    "lightbox",
+    "tbfed-pagefooter",
+    "prism",
+    "-highlight",
+    "insert-logo",
+    "anchor-navigation-ex",
+    "flexible-alerts",
+    "code",
+    "donate",
+    "expandable-chapters"
+  ],
+  "pluginsConfig": {
+    "fontSettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 1
+    },
+    "editlink": {
+      "base": "https://github.com/Landers1037/cooki/edit/master/content",
+      "label": "编辑本页",
+      "multilingual": false
+    },
+    "tbfed-pagefooter": {
+      "copyright":"&copy Renj.io",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "insert-logo": {
+      "url": "logo.jpeg",
+      "style": "background: none;max-height: 130px;max-width: 130px;border-radius: 50%"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "flexible-alerts": {
+      "note": {
+        "label": "提示"
+      },
+      "tip": {
+        "label": "贴士"
+      },
+      "warning": {
+        "label": "警告"
+      },
+      "danger": {
+        "label": "危险"
+      }
+    },
+    "donate": {
+      "wechat": "wechat.png",
+      "alipay": "alipay.png",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    }
+
+},
+  "links": {
+    "sidebar": {
+      "前往我的主页": "http://renj.io"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
