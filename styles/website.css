@@ -1,4 +1,52 @@
+.book {
+    z-index: 10;
+}
+
+.load {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: #ffefc7;
+    position: fixed;
+}
+.screen {
+    z-index: 999;
+}
 .code-wrapper pre {
     background: #272822;
     border-radius: 4px;
+}
+
+.bottom-banner {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: block;
+    padding: 15px 10px;
+    color: #404040;
+    width: max-content;
+    margin: 20px auto 10px;
+    cursor: pointer;
+}
+.bottom-banner a:hover {
+    text-decoration: none;
+}
+
+.bottom-banner a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+    display: inline-block;
+}
+.bottom-logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 6px;
+}
+
+.link {
+    color: #404040;
 }

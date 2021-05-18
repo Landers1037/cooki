@@ -1,0 +1,5 @@
+# 构建时需要排除的文件
+logo_origin.jpeg
+LICENSE
+plugins/*
+_layouts/*
