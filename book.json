@@ -19,7 +19,7 @@
     "anchor-navigation-ex",
     "flexible-alerts",
     "code",
-    "donate",
+    "-donate",
     "expandable-chapters"
   ],
   "pluginsConfig": {

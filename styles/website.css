@@ -8,9 +8,37 @@
     background-color: #ffefc7;
     position: fixed;
 }
+
 .screen {
     z-index: 999;
 }
+
+.book-logo img {
+    cursor: pointer;
+}
+
+.book-logo img:hover {
+    animation: logo 1.4s infinite;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotateY(0deg);
+    }
+    25% {
+        transform: rotateY(90deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    75% {
+        transform: rotateY(270deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
 .code-wrapper pre {
     background: #272822;
     border-radius: 4px;
