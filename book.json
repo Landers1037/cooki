@@ -44,7 +44,7 @@
       ]
     },
     "insert-logo": {
-      "url": "logo.jpeg",
+      "url": "/logo.jpeg",
       "style": "background: none;max-height: 130px;max-width: 130px;border-radius: 50%"
     },
     "anchor-navigation-ex": {
