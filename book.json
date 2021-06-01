@@ -13,23 +13,24 @@
     "editlink",
     "lightbox",
     "tbfed-pagefooter",
-    "prism",
-    "-highlight",
+    "-prism",
+    "highlight",
     "insert-logo",
     "anchor-navigation-ex",
     "flexible-alerts",
     "code",
     "-donate",
-    "expandable-chapters"
+    "-expandable-chapters",
+    "chapter-fold"
   ],
   "pluginsConfig": {
-    "fontSettings": {
-      "theme": "white",
+    "fontsettings": {
+      "theme": "night",
       "family": "sans",
       "size": 1
     },
     "editlink": {
-      "base": "https://github.com/Landers1037/cooki/edit/master/content",
+      "base": "https://github.com/Landers1037/cooki/edit/master",
       "label": "编辑本页",
       "multilingual": false
     },
